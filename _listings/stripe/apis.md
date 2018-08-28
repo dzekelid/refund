@@ -9,11 +9,35 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe
 x-kinRank: "10"
 x-alexaRank: "1914"
 tags: Refund
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/refund/master/_listings/stripe/apis.md
 specificationVersion: "0.14"
 apis:
+- name: Stripe - Add Application Fees  Refund
+  x-api-slug: application-feesidrefund-post
+  description: Post Application, Fees, , Refund
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
+  humanURL: https://stripe.com/
+  baseURL: https://api.stripe.com/v1/
+  tags: Billing, Finance, Payments, Payments, Stripe Stack, Imports, Change Log Example,
+    Stack Network, Stack, SaaS, Invoices, Payments, Relative Data, Service API, Relative
+    StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/refund/master/_listings/stripe/application-feesidrefund-post-openapi.md
+- name: Stripe - Add Charges Charge Refund
+  x-api-slug: chargeschargerefund-post
+  description: Post Charges, Charge, Refund
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
+  humanURL: https://stripe.com/
+  baseURL: https://api.stripe.com/v1/
+  tags: Billing, Finance, Payments, Payments, Stripe Stack, Imports, Change Log Example,
+    Stack Network, Stack, SaaS, Invoices, Payments, Relative Data, Service API, Relative
+    StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/refund/master/_listings/stripe/chargeschargerefund-post-openapi.md
 - name: Stripe - Get Charges Charge Refunds Refund
   x-api-slug: chargeschargerefundsrefund-get
   description: Get Charges, Charge, Refunds, Refund
@@ -28,6 +52,18 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/refund/master/_listings/stripe/chargeschargerefundsrefund-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/refund/master/_listings/stripe/chargeschargerefundsrefund-get-openapi.md
+- name: Stripe - Add Charges Charge Refunds Refund
+  x-api-slug: chargeschargerefundsrefund-post
+  description: Post Charges, Charge, Refunds, Refund
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
+  humanURL: https://stripe.com/
+  baseURL: https://api.stripe.com/v1/
+  tags: Billing, Finance, Payments, Payments, Stripe Stack, Imports, Change Log Example,
+    Stack Network, Stack, SaaS, Invoices, Payments, Relative Data, Service API, Relative
+    StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/refund/master/_listings/stripe/chargeschargerefundsrefund-post-openapi.md
 - name: Stripe - Get Refunds Refund
   x-api-slug: refundsrefund-get
   description: Retrieves the details of an existing refund.
@@ -42,6 +78,20 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/refund/master/_listings/stripe/refundsrefund-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/refund/master/_listings/stripe/refundsrefund-get-openapi.md
+- name: Stripe - Add Refunds Refund
+  x-api-slug: refundsrefund-post
+  description: Updates the specified refund by setting the values of the parameters
+    passed. Any parameters not provided will be left unchanged.This request only accepts
+    metadata as an argument.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
+  humanURL: https://stripe.com/
+  baseURL: https://api.stripe.com/v1/
+  tags: Billing, Finance, Payments, Payments, Stripe Stack, Imports, Change Log Example,
+    Stack Network, Stack, SaaS, Invoices, Payments, Relative Data, Service API, Relative
+    StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/refund/master/_listings/stripe/refundsrefund-post-openapi.md
 - name: Stripe - Get Application Fees Fee Refunds
   x-api-slug: application-feesfeerefundsid-get
   description: By default, you can see the 10 most recent refunds stored directly
@@ -58,6 +108,20 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/refund/master/_listings/stripe/application-feesfeerefundsid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/refund/master/_listings/stripe/application-feesfeerefundsid-get-openapi.md
+- name: Stripe - Add Application Fees Fee Refunds
+  x-api-slug: application-feesfeerefundsid-post
+  description: Updates the specified application fee refund by setting the values
+    of the parameters passed. Any parameters not provided will be left unchanged.This
+    request only accepts metadata as an argument.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
+  humanURL: https://stripe.com/
+  baseURL: https://api.stripe.com/v1/
+  tags: Billing, Finance, Payments, Payments, Stripe Stack, Imports, Change Log Example,
+    Stack Network, Stack, SaaS, Invoices, Payments, Relative Data, Service API, Relative
+    StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/refund/master/_listings/stripe/application-feesfeerefundsid-post-openapi.md
 - name: Stripe - Get Application Fees  Refunds
   x-api-slug: application-feesidrefunds-get
   description: You can see a list of the refunds belonging to a specific application
@@ -75,6 +139,18 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/refund/master/_listings/stripe/application-feesidrefunds-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/refund/master/_listings/stripe/application-feesidrefunds-get-openapi.md
+- name: Stripe - Add Application Fees  Refunds
+  x-api-slug: application-feesidrefunds-post
+  description: Post Application, Fees, , Refunds
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg
+  humanURL: https://stripe.com/
+  baseURL: https://api.stripe.com/v1/
+  tags: Billing, Finance, Payments, Payments, Stripe Stack, Imports, Change Log Example,
+    Stack Network, Stack, SaaS, Invoices, Payments, Relative Data, Service API, Relative
+    StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/refund/master/_listings/stripe/application-feesidrefunds-post-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://stride.api.gallery.streamdata.io

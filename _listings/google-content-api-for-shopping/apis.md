@@ -12,11 +12,23 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "0"
 tags: Refund
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/refund/master/_listings/google-content-api-for-shopping/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Content API for Shopping - Refund Order
+  x-api-slug: merchantidordersorderidrefund-post
+  description: Refund a portion of the order, up to the full amount paid. This method
+    can only be called for non-multi-client accounts.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Google-shopping-API1.jpg
+  humanURL: https://developers.google.com/shopping-content/v2/quickstart
+  baseURL: ://www.googleapis.com//content/v2
+  tags: Shopping, Commerce, Content, Google APIs, Stack Network, API Service Provider,
+    API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/refund/master/_listings/google-content-api-for-shopping/merchantidordersorderidrefund-post-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://google.container.engine.api.gallery.streamdata.io

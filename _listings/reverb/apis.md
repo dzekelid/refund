@@ -17,11 +17,22 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/1
 x-kinRank: "8"
 x-alexaRank: "0"
 tags: Refund
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/refund/master/_listings/reverb/apis.md
 specificationVersion: "0.14"
 apis:
+- name: reverb - Post My Orders Selling Order Refund Requests
+  x-api-slug: myorderssellingorder-idrefund-requests-post
+  description: Post my orders selling order refund requests.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/145_logo.png
+  humanURL: https://helloreverb.com/app
+  baseURL: https://api.reverb.com//api
+  tags: Dictionary, Spelling, API LIfeyclessss, Stack Network, Commerce, Relative
+    Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/refund/master/_listings/reverb/myorderssellingorder-idrefund-requests-post-openapi.md
 - name: reverb - Get My Refund Requests Selling
   x-api-slug: myrefund-requestsselling-get
   description: Get a list of refund requests as a seller
